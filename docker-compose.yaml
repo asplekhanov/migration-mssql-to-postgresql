@@ -25,7 +25,7 @@ services:
     #image: postgresql:16.4-pgloader
     container_name: PostgreSQL
     environment:
-      - POSTGRES_PASSWORD=Y6_kgkUs
+      - POSTGRES_PASSWORD=Y6_kgk2Us
       - POSTGRES_USER=postgres
     volumes:
       - postgres_data:/var/lib/postgresql/data
@@ -48,7 +48,7 @@ services:
     container_name: pgAdmin4
     environment:
       - PGADMIN_DEFAULT_EMAIL=admin@domain.ru
-      - PGADMIN_DEFAULT_PASSWORD=REwAmD9_
+      - PGADMIN_DEFAULT_PASSWORD=REwA3mD9_
     volumes:
       - pgadmin_data:/var/lib/pgadmin
     ports:
@@ -76,7 +76,7 @@ services:
       - mssql_user:/var/opt/sqlserver
     environment:
       - ACCEPT_EULA=Y
-      - MSSQL_SA_PASSWORD=Z5sC_oou
+      - MSSQL_SA_PASSWORD=Z5sC_osou
       - MSSQL_PID=Standard
       - MSSQL_COLLATION=Cyrillic_General_CI_AS
     ports:
