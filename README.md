@@ -43,12 +43,21 @@
 git clone https://github.com/asplekhanov/migration-mssql-to-postgresql.git
 ```
 2. Создать тома:
-    - docker volume create --name Portainer-ce
-    - docker volume create --name PostgreSQL
-    - docker volume create --name pgAdmin4
-    - docker volume create --name MSSQL-System
-    - docker volume create --name MSSQL-Users
-
+```bash
+docker volume create --name Portainer-ce
+```
+```bash
+docker volume create --name PostgreSQL
+```
+```bash
+docker volume create --name pgAdmin4
+```
+```bash
+docker volume create --name MSSQL-System
+```
+```bash
+docker volume create --name MSSQL-Users
+```
 3. Запустить контейнеры:
 ```bash
 docker-compose up
