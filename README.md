@@ -56,5 +56,5 @@ docker-compose up
 ```
 
 ## Проведение миграции
-- [Миграция с помощью SQL Server Management Studio (SSMS)]()
-- [Миграция с помощью pgLoader]()
+- [Миграция с помощью SQL Server Management Studio (SSMS)](Migration-ssms.md)
+- [Миграция с помощью pgLoader](Migration-pgloader.md)
