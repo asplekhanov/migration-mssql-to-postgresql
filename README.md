@@ -55,6 +55,12 @@ docker volume create --name MSSQL-Users
 docker-compose up
 ```
 
+| Продукт         | Логин           | Пароль    |
+|-----------------|-----------------|-----------|
+| PostgreSQL      | postgres        | Y6_kgk2Us |
+| pgAdmin4        | admin@domain.ru | REwA3mD9_ |
+| MS SQL Server   | sa              | Z5sC_osou |
+
 ## Проведение миграции
 - [Миграция с помощью SQL Server Management Studio (SSMS)](Migration-ssms.md)
 - [Миграция с помощью pgLoader](Migration-pgloader.md)
