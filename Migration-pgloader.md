@@ -6,14 +6,9 @@
 
 3. Запустить скрипт pgloader:
 ```bash
-pgloader mssql://sa:Z5sC_osou@msdb/master pgsql://postgres:Y6_kgk2Us@pgdb/postgres
-```
-
-pgloader mssql://sa:Z5sC_osou@msdb/northwind pgsql://postgres:Y6_kgk2Us@pgdb/northwind
-
-```bash
 docker run --rm -it dimitri/pgloader:latest pgloader mssql://sa:Z5sC_osou@msdb/northwind pgsql://postgres:Y6_kgk2Us@pgdb/northwind
 ```
+или
 ```bash
-docker run --rm -it dimitri/pgloader:ccl.latest pgloader mssql://sa:Z5sC_osou@msdb/Northwind pgsql://postgres:Y6_kgk2Us@pgdb/Northwind
+docker run --rm -it dimitri/pgloader:ccl.latest pgloader mssql://sa:Z5sC_osou@msdb/northwind pgsql://postgres:Y6_kgk2Us@pgdb/northwind
 ```
