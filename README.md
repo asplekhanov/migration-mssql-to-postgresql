@@ -62,5 +62,5 @@ docker-compose up
 | MS SQL Server   | sa              | Z5sC_osou |
 
 ## Проведение миграции
-- [Миграция с помощью SQL Server Management Studio (SSMS)](Migration-ssms.md)
-- [Миграция с помощью pgLoader](Migration-pgloader.md)
+- [Миграция с помощью SQL Server Management Studio (SSMS)](https://devmemo.ru/posts/migraciya-s-mssql-na-postgresql-chast-2-ssms/)
+- [Миграция с помощью pgLoader](#) - в разработке
